@@ -1,0 +1,15 @@
+#boquecard{
+    min-height: 600px !important;
+    max-height: 600px !important;
+}
+
+.slides img{
+    background: rgba(0,0,0,0.69);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(113,109,113,0.69) 48%, rgba(235,228,235,1) 100%); 
+    background:     -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.69)), color-stop(48%, rgba(113,109,113,0.69)), color-stop(100%, rgba(235,228,235,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(113,109,113,0.69) 48%, rgba(235,228,235,1) 100%);
+    background:      -o-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(113,109,113,0.69) 48%, rgba(235,228,235,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.69) 0%, rgba(113,109,113,0.69) 48%, rgba(235,228,235,1) 100%);
+    background:     linear-gradient(to bottom, rgba(0,0,0,0.69) 0%, rgba(113,109,113,0.69) 48%, rgba(235,228,235,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ebe4eb', GradientType=0 );
+}
